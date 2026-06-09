@@ -3,14 +3,14 @@ import { defaultDescription } from './resources/default';
 
 export class AmazonawsCodeartifact implements INodeType {
 	description: INodeTypeDescription = {
-		displayName: 'amazonaws-codeartifact',
+		displayName: 'Amazonaws Codeartifact',
 		name: 'N8nDevAmazonawsCodeartifact',
 		icon: { light: 'file:./amazonaws-codeartifact.png', dark: 'file:./amazonaws-codeartifact.dark.png' },
 		group: ['input'],
 		version: 1,
 		subtitle: '={{\$parameter["operation"] + ": " + \$parameter["resource"]}}',
-		description: 'CodeArtifact is a fully managed artifact repository compatible with language-native package managers and build tools such as npm, Apache Maven, pip, and dotnet. You can use CodeArtifact to shar..',
-		defaults: { name: 'amazonaws-codeartifact' },
+		description: 'CodeArtifact is a managed artifact repository for npm, Maven, pip, and dotnet.',
+		defaults: { name: 'Amazonaws Codeartifact' },
 		usableAsTool: true,
 		inputs: [NodeConnectionTypes.Main],
 		outputs: [NodeConnectionTypes.Main],

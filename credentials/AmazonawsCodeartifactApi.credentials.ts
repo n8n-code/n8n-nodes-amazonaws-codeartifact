@@ -8,7 +8,7 @@ import type {
 export class AmazonawsCodeartifactApi implements ICredentialType {
 	name = 'N8nDevAmazonawsCodeartifactApi';
 
-	displayName = 'amazonaws-codeartifact API';
+	displayName = 'Amazonaws Codeartifact API';
 
 	icon: Icon = { light: 'file:../nodes/AmazonawsCodeartifact/amazonaws-codeartifact.png', dark: 'file:../nodes/AmazonawsCodeartifact/amazonaws-codeartifact.dark.png' };
 
@@ -22,7 +22,7 @@ export class AmazonawsCodeartifactApi implements ICredentialType {
 			default: '',
 			required: true,
 			placeholder: 'http://codeartifact.us-east-1.amazonaws.com',
-			description: 'The base URL of your amazonaws-codeartifact API server',
+			description: 'The base URL of your Amazonaws Codeartifact API server',
 		},
 		{
 			displayName: 'API Key',

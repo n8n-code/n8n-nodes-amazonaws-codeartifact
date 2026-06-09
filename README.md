@@ -53,9 +53,49 @@ That's it. No configuration files. No code. It just works.
 
 ## Resources
 
-| Resource | Operations |
-|----------|------------|
-| Default | Post associate external connection, Delete disassociate external connection, Post copy package versions, Post create domain, Delete domain, Get describe domain, Post create repository, Delete repository, Get describe repository, Put update repository, Delete domain permissions policy, Get domain permissions policy, Delete package, Get describe package, Post put package origin configuration, Post delete package versions, Delete repository permissions policy, Get describe package version, Post dispose package versions, Post get authorization token, Get package version asset, Get package version readme, Get repository endpoint, Get repository permissions policy, Put repository permissions policy, Post list domains, Post list package version assets, Post list package version dependencies, Post list package versions, Post list packages, Post list repositories, Post list repositories in domain, Post list tags for resource, Post publish package version, Put domain permissions policy, Post tag resource, Post untag resource, Post update package versions status |
+<details>
+<summary><b>Default</b> (38 operations)</summary>
+
+- Post Associate External Connection
+- Delete Disassociate External Connection
+- Post Copy Package Versions
+- Post Create Domain
+- Delete Domain
+- Get Describe Domain
+- Post Create Repository
+- Delete Repository
+- Get Describe Repository
+- Put Update Repository
+- Delete Domain Permissions Policy
+- Get Domain Permissions Policy
+- Delete Package
+- Get Describe Package
+- Post Put Package Origin Configuration
+- Post Delete Package Versions
+- Delete Repository Permissions Policy
+- Get Describe Package Version
+- Post Dispose Package Versions
+- Post Get Authorization Token
+- Get Package Version Asset
+- Get Package Version Readme
+- Get Repository Endpoint
+- Get Repository Permissions Policy
+- Put Repository Permissions Policy
+- Post List Domains
+- Post List Package Version Assets
+- Post List Package Version Dependencies
+- Post List Package Versions
+- Post List Packages
+- Post List Repositories
+- Post List Repositories In Domain
+- Post List Tags For Resource
+- Post Publish Package Version
+- Put Domain Permissions Policy
+- Post Tag Resource
+- Post Untag Resource
+- Post Update Package Versions Status
+
+</details>
 
 ---
 
